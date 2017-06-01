@@ -1,8 +1,9 @@
 # Optimum Energy ESLint Configuration
 
-This is the [shared](http://eslint.org/docs/developer-guide/shareable-configs.html) team ESLint
-configuration for [Optimum Energy](http://optimumenergyco.com/).
-
+This is my personal collection of
+[sharable](http://eslint.org/docs/developer-guide/shareable-configs.html) ESLint configurations.
+They started as configurations I was building while working at
+[@optimumenergyco](https://github.com/optimumenergyco), but I've since forked them.
 
 ## Usage
 
@@ -35,7 +36,7 @@ branch.
 
 ``` shell
 npm version <VERSION>
-git push origin master
+git push --follow-tags origin master
 ```
 
 This will update the package.json file and create a tagged commit. CircleCI will automatically pick
