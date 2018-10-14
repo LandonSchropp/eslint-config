@@ -19,7 +19,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-config-optimum-energy": "^0.4.0"
+    "eslint-config-optimum-energy": "0.4.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
