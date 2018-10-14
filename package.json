@@ -1,0 +1,10 @@
+{
+  "name": "@landonschropp/eslint-config",
+  "version": "0.0.0",
+  "description": "My personal ESLint configuration",
+  "main": "index.js",
+  "repository": "https://github.com/LandonSchropp/eslint-config",
+  "author": "Landon Schropp <schroppl@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
