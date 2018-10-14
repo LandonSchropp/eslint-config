@@ -7,6 +7,10 @@
   "author": "Landon Schropp <schroppl@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "scripts": {
     "lint": "eslint --max-warnings=0 ."
   },
