@@ -7,10 +7,17 @@
   "author": "Landon Schropp <schroppl@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "eslint --max-warnings=0 ."
+  },
   "files": [
     "index.js"
   ],
   "dependencies": {
     "eslint-config-optimum-energy": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0"
   }
 }
