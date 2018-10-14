@@ -1,11 +1,8 @@
 # Landon Schropp's ESLint Configuration
 
-This repository contains my personal ESLint rules. It's currently a mirror of my
+This repository contains my personal ESLint configuration. It's currently a mirror of my
 [employer's ESLint configuration](https://github.com/optimumenergyco/eslint-config-optimum-energy)
 (which I helped write).
-
-I've decided to maintain my own NPM package so I can reference it without having to worry about it
-changing in the future. At some point, I may fork the base package and add my own rules.
 
 ## Usage
 
