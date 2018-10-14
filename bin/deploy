@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+SOURCE_PACKAGE="eslint-config-optimum-energy"
+
+# Determine the latest version of the eslint-config-optimum-energy package from NPM.
+SOURCE_VERSION=$(yarn -s info eslint-config-optimum-energy dist-tags.latest)
+CURRENT_VERSION=$(jq -r '.version' < package.json)
+
+# Exit if the versions match
+if [ "$CURRENT_VERSION" = "$SOURCE_VERSION" ]; then
+  echo "This package's version ($CURRENT_VERSION) matches $SOURCE_PACKAGE's version" \
+    "($SOURCE_VERSION), so there's nothing to do!"
+  exit 0
+fi
+
+# Update the dependent version in the package
+yarn upgrade "$SOURCE_PACKAGE@$SOURCE_VERSION"
+git add package.json yarn.lock
+git commit -m "Bump eslint-config-opimum-energy to $SOURCE_VERSION"
+
+# Set the current version to match the latest version
+echo yarn version --new-version "$SOURCE_VERSION"
+yarn version --new-version "$SOURCE_VERSION"
+
+# Deploy the new version of the package
+yarn publish --new-version "$SOURCE_VERSION" --access public
+
+# Push the changes up to GitHub
+git push
+git push --tags

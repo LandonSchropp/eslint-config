@@ -12,7 +12,8 @@
     "eslintconfig"
   ],
   "scripts": {
-    "lint": "eslint --max-warnings=0 ."
+    "lint": "eslint --max-warnings=0 .",
+    "deploy": "bin/deploy"
   },
   "files": [
     "index.js"
