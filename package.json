@@ -16,7 +16,6 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "lint": "eslint --max-warnings 0 .",
-    "publish": "bin/publish"
+    "lint": "eslint --max-warnings 0 ."
   }
 }
