@@ -16,7 +16,8 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0"
+    "eslint": "^7.5.0",
+    "lerna": "^4.0.0"
   },
   "scripts": {
     "lint": "eslint -c index.js --max-warnings 0 .",
