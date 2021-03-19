@@ -29,10 +29,9 @@ your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ## Deployment
 
-You can use the [Lerna](https://lerna.js.org/) to publish updated version of these packages to NPM.
+You can use [Lerna](https://lerna.js.org/) to publish updated version of these packages to NPM.
 Before running this, you'll need to set the `NPM_TOKEN` environment variable.
 
 ``` shell
-lerna version
 lerna publish
 ```
