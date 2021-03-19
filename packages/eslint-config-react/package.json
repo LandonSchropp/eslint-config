@@ -1,6 +1,6 @@
 {
   "name": "@landonschropp/eslint-config-react",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "My personal ESLint JSX/React configuration",
   "main": "index.js",
   "repository": "https://github.com/LandonSchropp/eslint-configs",
