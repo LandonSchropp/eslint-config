@@ -13,5 +13,8 @@
   ],
   "files": [
     "index.js"
-  ]
+  ],
+  "peerDependencies": {
+    "eslint": ">= 7.22"
+  }
 }
