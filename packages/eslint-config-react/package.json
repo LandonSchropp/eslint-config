@@ -1,0 +1,20 @@
+{
+  "name": "@landonschropp/eslint-config-react",
+  "version": "0.4.0",
+  "description": "My personal ESLint JSX/React configuration",
+  "main": "index.js",
+  "repository": "https://github.com/LandonSchropp/eslint-configs",
+  "author": "Landon Schropp <schroppl@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 7.22"
+  }
+}
