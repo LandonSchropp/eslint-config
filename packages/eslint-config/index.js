@@ -100,7 +100,7 @@ module.exports = {
     "keyword-spacing": "warn",
     "linebreak-style": "warn",
     "lines-around-comment": "warn",
-    "lines-between-class-members": [ "warn" ],
+    "lines-between-class-members": [ "warn", "always", { "exceptAfterSingleLine": true } ],
     "max-depth": [ "warn", 6 ],
     "max-len": [ "warn", 100 ],
     "max-nested-callbacks": "warn",
