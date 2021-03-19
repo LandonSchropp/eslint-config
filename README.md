@@ -1,4 +1,4 @@
-# Optimum Energy ESLint Configuration
+# Landon Schropp ESLint Configurations
 
 This is my personal collection of
 [sharable](http://eslint.org/docs/developer-guide/shareable-configs.html) ESLint configurations.
