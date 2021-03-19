@@ -29,9 +29,10 @@ your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ## Deployment
 
-You can use the [`bin/deploy`](bin/deploy) script to push updated version of these packages to NPM.
+You can use the [Lerna](https://lerna.js.org/) to publish updated version of these packages to NPM.
+Before running this, you'll need to set the `NPM_TOKEN` environment variable.
 
 ``` shell
-yarn version --new-version <VERSION>
-bin/deploy
+lerna version
+lerna publish
 ```
