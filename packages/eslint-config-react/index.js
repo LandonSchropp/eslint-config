@@ -2,7 +2,10 @@
 
 module.exports = {
   parser: "babel-eslint",
-  extends: "eslint:recommended",
+  extends: [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
 
   env: {
     node: true
@@ -14,18 +17,27 @@ module.exports = {
     "react/jsx-boolean-value": "warn",
     "react/jsx-child-element-spacing": "warn",
     "react/jsx-closing-bracket-location": [ "warn", "line-aligned" ],
+    "react/jsx-closing-tag-location": "warn",
+    "react/jsx-curly-newline": "warn",
     "react/jsx-curly-spacing": [ "warn", { when: "always", children: true } ],
     "react/jsx-equals-spacing": [ "warn", "never" ],
     "react/jsx-filename-extension": "warn",
     "react/jsx-first-prop-new-line": [ "warn", "multiline" ],
+    "react/jsx-fragments": [ "warn", "element" ],
+    "react/jsx-handler-names": "warn",
     "react/jsx-indent": [ "warn", 2 ],
     "react/jsx-indent-props": [ "warn", 2 ],
     "react/jsx-key": "warn",
+    "react/jsx-newline": "warn",
     "react/jsx-no-bind": [ "warn", { ignoreRefs: true, allowArrowFunctions: true } ],
     "react/jsx-no-comment-textnodes": "warn",
+    "react/jsx-no-constructed-context-values": "warn",
     "react/jsx-no-duplicate-props": "warn",
+    "react/jsx-no-script-url": "error",
     "react/jsx-no-target-blank": "warn",
     "react/jsx-no-undef": [ "warn", { allowGlobals: true } ],
+    "react/jsx-no-useless-fragment": "warn",
+    "react/jsx-pascal-case": "warn",
     "react/jsx-props-no-multi-spaces": "warn",
     "react/jsx-tag-spacing": [
       "warn", {
@@ -35,7 +47,7 @@ module.exports = {
         "beforeClosing": "never"
       }
     ],
-    "react/jsx-uses-vars": "warn"
+    "react/jsx-uses-vars": "warn",
 
     // React
     "react/button-has-type": "error",
@@ -58,6 +70,6 @@ module.exports = {
     "react/self-closing-comp": "warn",
     "react/sort-comp": "warn",
     "react/style-prop-object": "error",
-    "react/void-dom-elements-no-children": "error",
+    "react/void-dom-elements-no-children": "error"
   }
 };
