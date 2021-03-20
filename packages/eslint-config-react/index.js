@@ -23,7 +23,6 @@ module.exports = {
     "react/jsx-boolean-value": "warn",
     "react/jsx-child-element-spacing": "warn",
     "react/jsx-closing-bracket-location": [ "warn", "line-aligned" ],
-    "react/jsx-closing-tag-location": "warn",
     "react/jsx-curly-newline": "warn",
     "react/jsx-curly-spacing": [ "warn", { when: "always", children: true } ],
     "react/jsx-equals-spacing": [ "warn", "never" ],
