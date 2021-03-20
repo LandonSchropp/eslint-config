@@ -33,7 +33,6 @@ module.exports = {
     "react/jsx-indent": [ "warn", 2 ],
     "react/jsx-indent-props": [ "warn", 2 ],
     "react/jsx-key": "warn",
-    "react/jsx-newline": "warn",
     "react/jsx-no-bind": [ "warn", { ignoreRefs: true, allowArrowFunctions: true } ],
     "react/jsx-no-comment-textnodes": "warn",
     "react/jsx-no-constructed-context-values": "warn",
