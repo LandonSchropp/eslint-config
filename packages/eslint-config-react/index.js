@@ -28,7 +28,7 @@ module.exports = {
     "react/jsx-equals-spacing": [ "warn", "never" ],
     "react/jsx-filename-extension": "warn",
     "react/jsx-first-prop-new-line": [ "warn", "multiline" ],
-    "react/jsx-fragments": [ "warn", "element" ],
+    "react/jsx-fragments": [ "warn", "syntax" ],
     "react/jsx-handler-names": "warn",
     "react/jsx-indent": [ "warn", 2 ],
     "react/jsx-indent-props": [ "warn", 2 ],
