@@ -41,7 +41,6 @@ module.exports = {
     "react/jsx-no-target-blank": "warn",
     "react/jsx-no-undef": [ "warn", { allowGlobals: true } ],
     "react/jsx-no-useless-fragment": "warn",
-    "react/jsx-pascal-case": "warn",
     "react/jsx-props-no-multi-spaces": "warn",
     "react/jsx-tag-spacing": [
       "warn", {
