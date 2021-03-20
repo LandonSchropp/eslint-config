@@ -11,6 +11,12 @@ module.exports = {
     node: true
   },
 
+  overrides: [
+    {
+      "files": [ "*.jsx", "*.js" ]
+    }
+  ],
+
   rules: {
 
     // JSX
