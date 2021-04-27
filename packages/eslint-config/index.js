@@ -56,7 +56,7 @@ module.exports = {
     "no-new-wrappers": "error",
     "no-octal-escape": "error",
     "no-octal": "warn",
-    "no-param-reassign": "error",
+    "no-param-reassign": "off",
     "no-proto": "error",
     "no-redeclare": "error",
     "no-script-url": "error",
