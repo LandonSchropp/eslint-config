@@ -65,6 +65,7 @@ module.exports = {
     "react/button-has-type": "error",
     "react/default-props-match-prop-types": "warn",
     "react/destructuring-assignment": [ "warn", "always", { "ignoreClassFields": true } ],
+    "react/display-name": "warn",
     "react/forbid-dom-props": "error",
     "react/forbid-foreign-prop-types": "warn",
     "react/no-access-state-in-setstate": "warn",
