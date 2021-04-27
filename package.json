@@ -12,7 +12,7 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.22.0",
+    "eslint": "^7.25.0",
     "lerna": "^4.0.0"
   },
   "scripts": {
