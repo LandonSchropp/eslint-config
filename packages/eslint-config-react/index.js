@@ -17,12 +17,20 @@ module.exports = {
     }
   ],
 
+  settings: {
+    componentWrapperFunctions: [ "observer" ],
+    react: {
+      version: "detect"
+    }
+  },
+
   rules: {
 
     // JSX
     "react/jsx-boolean-value": "warn",
     "react/jsx-child-element-spacing": "warn",
     "react/jsx-closing-bracket-location": [ "warn", "line-aligned" ],
+    "react/jsx-closing-tag-location": "off",
     "react/jsx-curly-newline": "warn",
     "react/jsx-curly-spacing": [ "warn", { when: "always", children: true } ],
     "react/jsx-equals-spacing": [ "warn", "never" ],
@@ -33,6 +41,7 @@ module.exports = {
     "react/jsx-indent": [ "warn", 2 ],
     "react/jsx-indent-props": [ "warn", 2 ],
     "react/jsx-key": "warn",
+    "react/jsx-newline": "off",
     "react/jsx-no-bind": [ "warn", { ignoreRefs: true, allowArrowFunctions: true } ],
     "react/jsx-no-comment-textnodes": "warn",
     "react/jsx-no-constructed-context-values": "warn",
