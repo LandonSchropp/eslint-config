@@ -17,6 +17,13 @@ module.exports = {
     }
   ],
 
+  settings: {
+    componentWrapperFunctions: [ "observer" ],
+    react: {
+      version: "detect"
+    }
+  },
+
   rules: {
 
     // JSX
