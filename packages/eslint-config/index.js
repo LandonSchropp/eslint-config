@@ -1,7 +1,6 @@
 "use strict";
 
 module.exports = {
-  parser: "babel-eslint",
   extends: "eslint:recommended",
 
   env: {
