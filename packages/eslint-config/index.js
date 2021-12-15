@@ -146,6 +146,7 @@ module.exports = {
     "no-duplicate-imports": "error",
     "no-new-symbol": "error",
     "no-this-before-super": "error",
+    "no-unused-private-class-members": "warn",
     "no-useless-computed-key": "error",
     "no-useless-constructor": "error",
     "no-var": "error",
