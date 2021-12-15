@@ -39,7 +39,7 @@ module.exports = {
     "react/jsx-fragments": [ "warn", "syntax" ],
     "react/jsx-handler-names": "warn",
     "react/jsx-indent": [ "warn", 2 ],
-    "react/jsx-indent-props": [ "warn", 2 ],
+    "react/jsx-indent-props": [ "warn", { indentMode: 2, ignoreTernaryOperator: true } ],
     "react/jsx-key": "warn",
     "react/jsx-newline": "off",
     "react/jsx-no-bind": [ "warn", { ignoreRefs: true, allowArrowFunctions: true } ],
@@ -90,7 +90,7 @@ module.exports = {
     "react/prop-types": "warn",
     "react/require-render-return": "error",
     "react/self-closing-comp": "warn",
-    "react/sort-comp": "warn",
+    "react/sort-comp": "off",
     "react/style-prop-object": "error",
     "react/void-dom-elements-no-children": "error"
   }
