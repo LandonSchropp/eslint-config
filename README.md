@@ -9,14 +9,13 @@ I've since forked them.
 
 First, install the packages you'd like to use.
 
-```
-$ yarn add -D eslint @landonschropp/eslint-config @landon-schropp/react-eslint-config
+``` shell
+yarn add -D eslint @landonschropp/eslint-config @landon-schropp/react-eslint-config
 ```
 
 Next, specify the packages you'd like to use in the
 [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of
 your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
-
 
 ``` js
 {
