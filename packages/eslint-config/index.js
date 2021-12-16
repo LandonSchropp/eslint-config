@@ -132,6 +132,7 @@ module.exports = {
     "require-yield": "error",
     "semi": "warn",
     "semi-spacing": "warn",
+    "sort-imports": "warn",
     "space-before-blocks": "warn",
     "space-before-function-paren": [
       "error",
