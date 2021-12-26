@@ -1,6 +1,6 @@
 {
   "name": "@landonschropp/eslint-config",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "My personal ESLint JavaScript configuration",
   "main": "index.js",
   "repository": "https://github.com/LandonSchropp/eslint-configs",
