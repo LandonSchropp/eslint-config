@@ -3,6 +3,10 @@
 module.exports = {
   extends: "eslint:recommended",
 
+  plugins: [
+    "simple-import-sort"
+  ],
+
   env: {
     node: true
   },
@@ -132,6 +136,7 @@ module.exports = {
     "require-yield": "error",
     "semi": "warn",
     "semi-spacing": "warn",
+    "simple-import-sort/imports": "error",
     "sort-imports": "warn",
     "space-before-blocks": "warn",
     "space-before-function-paren": [
